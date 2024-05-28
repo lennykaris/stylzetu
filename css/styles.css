@@ -10824,3 +10824,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.color-input {
+  display: none;
+  margin-top: 10px;
+}

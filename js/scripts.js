@@ -5,3 +5,13 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+
+        document.getElementById('view-options-btn').addEventListener('click', function(event) {
+            event.preventDefault();
+            var colorInput = document.getElementById('color-input');
+            if (colorInput.style.display === 'none' || colorInput.style.display === '') {
+                colorInput.style.display = 'block';
+            } else {
+                colorInput.style.display = 'none';
+            }
+        })
